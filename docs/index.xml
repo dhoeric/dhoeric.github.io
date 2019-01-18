@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keep Moving</title>
+    <link>https://dhoeric.github.io/</link>
+    <description>Recent content on Keep Moving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jan 2019 22:34:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://dhoeric.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://dhoeric.github.io/about/</link>
+      <pubDate>Fri, 18 Jan 2019 22:34:37 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/about/</guid>
+      <description>Hi there, here is my blog and mostly about technical notes on DevOps-related work.
+- Eric</description>
+    </item>
+    
+    <item>
+      <title>Using logfmt on Phoenix Framework</title>
+      <link>https://dhoeric.github.io/2018/using-logfmt-on-phoenix-framework/</link>
+      <pubDate>Sat, 31 Mar 2018 02:20:16 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/2018/using-logfmt-on-phoenix-framework/</guid>
+      <description>Nowadays application log is not only serve as an assets for tracing application error but also a data for analyse user requests. Logfmt is a format to show the logs in key/value pairs, which is readable by human or computer. This article shows you to:
+ Convert default Phoenix Framework output into logfmt Add remote ip to the request log  In case you don&amp;rsquo;t want to study a long steps, you can go to https://github.</description>
+    </item>
+    
+    <item>
+      <title>Ansible dynamic inventory with AWS EC2</title>
+      <link>https://dhoeric.github.io/2017/ansible-with-aws/</link>
+      <pubDate>Sat, 03 Jun 2017 21:47:50 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/2017/ansible-with-aws/</guid>
+      <description>By using ansible dynamic inventory, we can run ansible based on instances&amp;rsquo; tags, such as app=backend,env=staging etc. Here will talk about how to make use of defined tags on AWS EC2 and run ansible-playbook scripts onto them.
+1. Define a few tags on target EC2 instances Define some tags on created EC2, such as App=backend, Environment=staging, Usage=clock-worker
+To assign tags on the multiple instances, you can use with AWS Resource Tag editor.</description>
+    </item>
+    
+    <item>
+      <title>Logrotate with crontab</title>
+      <link>https://dhoeric.github.io/2017/logrotate-crontab/</link>
+      <pubDate>Sat, 03 Jun 2017 20:32:03 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/2017/logrotate-crontab/</guid>
+      <description>While working with logrotate, it&amp;rsquo;s usually pretty hard to debug while we want to write it in a short period of time.
+Here are some basic info of logrotate, as well as crontab, which invokes logrotate regularly in Ubuntu 14.04.
+Test logrotate manually Directory of logrotate config file, for defining target service&amp;rsquo;s log rotation: /etc/logrotate.d
+To test with logrotate manually, you can run logrotate -d /etc/logrotate.d/nginx
+To check for last run on logrotate, you can run cat /var/lib/logrotate/status</description>
+    </item>
+    
+    <item>
+      <title>One-liner to replace HTTPS into SSH url in .gitmodules</title>
+      <link>https://dhoeric.github.io/2017/https-to-ssh-in-gitmodules/</link>
+      <pubDate>Tue, 16 May 2017 23:57:00 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/2017/https-to-ssh-in-gitmodules/</guid>
+      <description>While pulling submodule repositories in CI servers like Jenkins/CircleCI, repositories with HTTPS submodule url will ask for credentials, which is hard for automation.
+Demo of .gitmodules $ cat .gitmodules [submodule &amp;#34;common&amp;#34;] path = common url = https://github.com/dhoeric/common.git
+After you trying to pull submodule repo, you will be asked for password&amp;hellip; $ git submodule sync $ git submodule update --init Submodule &amp;#39;common&amp;#39; (https://github.com/dhoeric/common.git) registered for path &amp;#39;common&amp;#39; Cloning into &amp;#39;~/r/hello-submodule/common&amp;#39;... Username for &amp;#39;https://github.</description>
+    </item>
+    
+    <item>
+      <title>Cheatsheet for AWS IAM policy</title>
+      <link>https://dhoeric.github.io/2017/aws-iam/</link>
+      <pubDate>Mon, 24 Apr 2017 22:28:16 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/2017/aws-iam/</guid>
+      <description>AWS IAM is a service to control permission over AWS&amp;rsquo;s different services, which is pretty useful for restricting access level for CI services or other account.
+AWS itself actually already provided templates policy but it usually still too wide for specific usage. Here is just to name a few common usages for (myself) reference.
+S3  Deploy to specific bucket 1 2 3 4 5 6 7 8 9 10  { &amp;#34;Version&amp;#34;:&amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;:[ { &amp;#34;Effect&amp;#34;:&amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;:[&amp;#34;s3:PutObject&amp;#34;], &amp;#34;Resource&amp;#34;:&amp;#34;arn:aws:s3:::[DEPLOY_BUCKET]/*&amp;#34; } ] }</description>
+    </item>
+    
+  </channel>
+</rss>
