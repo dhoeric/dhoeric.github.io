@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phoenix on Keep Moving</title>
+    <link>https://dhoeric.github.io/test/tags/phoenix/</link>
+    <description>Recent content in Phoenix on Keep Moving</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Mar 2018 02:20:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://dhoeric.github.io/test/tags/phoenix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using logfmt on Phoenix Framework</title>
+      <link>https://dhoeric.github.io/test/2018/using-logfmt-on-phoenix-framework/</link>
+      <pubDate>Sat, 31 Mar 2018 02:20:16 +0800</pubDate>
+      
+      <guid>https://dhoeric.github.io/test/2018/using-logfmt-on-phoenix-framework/</guid>
+      <description>Nowadays application log is not only serve as an assets for tracing application error but also a data for analyse user requests. Logfmt is a format to show the logs in key/value pairs, which is readable by human or computer. This article shows you to:
+ Convert default Phoenix Framework output into logfmt Add remote ip to the request log  In case you don&amp;rsquo;t want to study a long steps, you can go to https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

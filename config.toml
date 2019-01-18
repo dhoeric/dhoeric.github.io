@@ -1,0 +1,29 @@
+baseURL = "https://dhoeric.github.io/test/"
+canonifyURLs = true
+languageCode = "en-us"
+title = "Keep Moving"
+theme = "temple"
+disqusShortname = "dhoericgh"
+
+publishDir = "docs"
+
+pygmentsStyle = "monokai"
+pygmentsCodeFences = true
+
+[permalinks]
+  posts = "/:year/:slug/"
+
+[params]
+  dateformatpretty = "02 Jan 2006"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[author]
+  name = "Eric Ho"
+  github = "dhoeric"
+  gaid = "UA-81942667-2"
+  twitter = "dho_eric"
+  medium = "dhoeric"
+
