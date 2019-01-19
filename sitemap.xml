@@ -3,162 +3,162 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dhoeric.github.io/test/about/</loc>
+    <loc>https://dhoeric.github.io/about/</loc>
     <lastmod>2019-01-18T22:34:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/2018/using-logfmt-on-phoenix-framework/</loc>
+    <loc>https://dhoeric.github.io/2018/using-logfmt-on-phoenix-framework/</loc>
     <lastmod>2018-03-31T02:20:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/2017/ansible-with-aws/</loc>
+    <loc>https://dhoeric.github.io/2017/ansible-with-aws/</loc>
     <lastmod>2017-06-03T21:47:50+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/2017/logrotate-crontab/</loc>
+    <loc>https://dhoeric.github.io/2017/logrotate-crontab/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/2017/https-to-ssh-in-gitmodules/</loc>
+    <loc>https://dhoeric.github.io/2017/https-to-ssh-in-gitmodules/</loc>
     <lastmod>2017-05-16T23:57:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/2017/aws-iam/</loc>
+    <loc>https://dhoeric.github.io/2017/aws-iam/</loc>
     <lastmod>2017-04-24T22:28:16+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/admin/</loc>
+    <loc>https://dhoeric.github.io/tags/admin/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/ansible/</loc>
+    <loc>https://dhoeric.github.io/tags/ansible/</loc>
     <lastmod>2017-06-03T21:47:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/aws/</loc>
+    <loc>https://dhoeric.github.io/tags/aws/</loc>
     <lastmod>2017-06-03T21:47:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/categories/</loc>
+    <loc>https://dhoeric.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/crontab/</loc>
+    <loc>https://dhoeric.github.io/tags/crontab/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/devops/</loc>
+    <loc>https://dhoeric.github.io/tags/devops/</loc>
     <lastmod>2017-06-03T21:47:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/ecr/</loc>
+    <loc>https://dhoeric.github.io/tags/ecr/</loc>
     <lastmod>2017-04-24T22:28:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/elixir/</loc>
+    <loc>https://dhoeric.github.io/tags/elixir/</loc>
     <lastmod>2018-03-31T02:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/git/</loc>
+    <loc>https://dhoeric.github.io/tags/git/</loc>
     <lastmod>2017-05-16T23:57:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/iam/</loc>
+    <loc>https://dhoeric.github.io/tags/iam/</loc>
     <lastmod>2017-04-24T22:28:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/</loc>
+    <loc>https://dhoeric.github.io/</loc>
     <lastmod>2019-01-18T22:34:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/logging/</loc>
+    <loc>https://dhoeric.github.io/tags/logging/</loc>
     <lastmod>2018-03-31T02:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/logrotate/</loc>
+    <loc>https://dhoeric.github.io/tags/logrotate/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/perl/</loc>
+    <loc>https://dhoeric.github.io/tags/perl/</loc>
     <lastmod>2017-05-16T23:57:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/phoenix/</loc>
+    <loc>https://dhoeric.github.io/tags/phoenix/</loc>
     <lastmod>2018-03-31T02:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/posts/</loc>
+    <loc>https://dhoeric.github.io/posts/</loc>
     <lastmod>2018-03-31T02:20:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/s3/</loc>
+    <loc>https://dhoeric.github.io/tags/s3/</loc>
     <lastmod>2017-04-24T22:28:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/sed/</loc>
+    <loc>https://dhoeric.github.io/tags/sed/</loc>
     <lastmod>2017-05-16T23:57:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/submodules/</loc>
+    <loc>https://dhoeric.github.io/tags/submodules/</loc>
     <lastmod>2017-05-16T23:57:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/system/</loc>
+    <loc>https://dhoeric.github.io/tags/system/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/</loc>
+    <loc>https://dhoeric.github.io/tags/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dhoeric.github.io/test/tags/unix/</loc>
+    <loc>https://dhoeric.github.io/tags/unix/</loc>
     <lastmod>2017-06-03T20:32:03+08:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on Keep Moving</title>
-    <link>https://dhoeric.github.io/test/tags/devops/</link>
+    <link>https://dhoeric.github.io/tags/devops/</link>
     <description>Recent content in Devops on Keep Moving</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Jun 2017 21:47:50 +0800</lastBuildDate>
     
-	<atom:link href="https://dhoeric.github.io/test/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dhoeric.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ansible dynamic inventory with AWS EC2</title>
-      <link>https://dhoeric.github.io/test/2017/ansible-with-aws/</link>
+      <link>https://dhoeric.github.io/2017/ansible-with-aws/</link>
       <pubDate>Sat, 03 Jun 2017 21:47:50 +0800</pubDate>
       
-      <guid>https://dhoeric.github.io/test/2017/ansible-with-aws/</guid>
+      <guid>https://dhoeric.github.io/2017/ansible-with-aws/</guid>
       <description>By using ansible dynamic inventory, we can run ansible based on instances&amp;rsquo; tags, such as app=backend,env=staging etc. Here will talk about how to make use of defined tags on AWS EC2 and run ansible-playbook scripts onto them.
 1. Define a few tags on target EC2 instances Define some tags on created EC2, such as App=backend, Environment=staging, Usage=clock-worker
 To assign tags on the multiple instances, you can use with AWS Resource Tag editor.</description>
@@ -24,10 +24,10 @@ To assign tags on the multiple instances, you can use with AWS Resource Tag edit
     
     <item>
       <title>Cheatsheet for AWS IAM policy</title>
-      <link>https://dhoeric.github.io/test/2017/aws-iam/</link>
+      <link>https://dhoeric.github.io/2017/aws-iam/</link>
       <pubDate>Mon, 24 Apr 2017 22:28:16 +0800</pubDate>
       
-      <guid>https://dhoeric.github.io/test/2017/aws-iam/</guid>
+      <guid>https://dhoeric.github.io/2017/aws-iam/</guid>
       <description>AWS IAM is a service to control permission over AWS&amp;rsquo;s different services, which is pretty useful for restricting access level for CI services or other account.
 AWS itself actually already provided templates policy but it usually still too wide for specific usage. Here is just to name a few common usages for (myself) reference.
 S3  Deploy to specific bucket 1 2 3 4 5 6 7 8 9 10  { &amp;#34;Version&amp;#34;:&amp;#34;2012-10-17&amp;#34;, &amp;#34;Statement&amp;#34;:[ { &amp;#34;Effect&amp;#34;:&amp;#34;Allow&amp;#34;, &amp;#34;Action&amp;#34;:[&amp;#34;s3:PutObject&amp;#34;], &amp;#34;Resource&amp;#34;:&amp;#34;arn:aws:s3:::[DEPLOY_BUCKET]/*&amp;#34; } ] }</description>
