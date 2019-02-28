@@ -337,7 +337,7 @@ a {
   
   
 
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.54.0" />
 
   
   
@@ -519,7 +519,7 @@ end</code></pre></td></tr></table>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-diff" data-lang="diff"><span style="color:#f92672">-  plug Plug.Logger
 </span><span style="color:#f92672"></span><span style="color:#a6e22e">+  plug HelloWeb.LoggerPlug
-</span><span style="color:#a6e22e"></span></code></pre></div>
+</span></code></pre></div>
 
 <ul>
 <li>Overwrite with the default format in production environment (optional)</li>
@@ -532,7 +532,7 @@ To overwrite in production environment, we can update it in <code>config/prod.ex
 </span><span style="color:#f92672"></span><span style="color:#a6e22e">+config :logger, :console,
 </span><span style="color:#a6e22e">+  level: :info,
 </span><span style="color:#a6e22e">+  format: &#34;$metadata$message\n&#34;
-</span><span style="color:#a6e22e"></span></code></pre></div>
+</span></code></pre></div>
 
 <h2 id="add-remote-ip-on-request-log">Add Remote IP on Request Log</h2>
 

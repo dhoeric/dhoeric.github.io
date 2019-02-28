@@ -337,7 +337,7 @@ a {
   
   
 
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.54.0" />
 
   
   
@@ -613,26 +613,32 @@ Here is just to name a few common usages for (myself) reference.</p>
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
   <span style="color:#f92672">&#34;Version&#34;</span>: <span style="color:#e6db74">&#34;2012-10-17&#34;</span>,
   <span style="color:#f92672">&#34;Statement&#34;</span>: [
     {
-      <span style="color:#f92672">&#34;Sid&#34;</span>: <span style="color:#e6db74">&#34;Stmt1491209809000&#34;</span>,
       <span style="color:#f92672">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
       <span style="color:#f92672">&#34;Action&#34;</span>: [
         <span style="color:#e6db74">&#34;ecr:BatchCheckLayerAvailability&#34;</span>,
         <span style="color:#e6db74">&#34;ecr:BatchGetImage&#34;</span>,
         <span style="color:#e6db74">&#34;ecr:DescribeRepositories&#34;</span>,
-        <span style="color:#e6db74">&#34;ecr:GetAuthorizationToken&#34;</span>,
         <span style="color:#e6db74">&#34;ecr:GetDownloadUrlForLayer&#34;</span>,
         <span style="color:#e6db74">&#34;ecr:GetRepositoryPolicy&#34;</span>,
         <span style="color:#e6db74">&#34;ecr:ListImages&#34;</span>
       ],
-      <span style="color:#f92672">&#34;Resource&#34;</span>: [
-        <span style="color:#e6db74">&#34;arn:aws:ecr:*&#34;</span>
-      ]
+      <span style="color:#f92672">&#34;Resource&#34;</span>: <span style="color:#e6db74">&#34;arn:aws:ecr:[AWS_REGION]:[USER_ID]:repository/*&#34;</span>
+    },
+    {
+      <span style="color:#f92672">&#34;Effect&#34;</span>: <span style="color:#e6db74">&#34;Allow&#34;</span>,
+      <span style="color:#f92672">&#34;Action&#34;</span>: [
+        <span style="color:#e6db74">&#34;ecr:GetAuthorizationToken&#34;</span>
+      ],
+      <span style="color:#f92672">&#34;Resource&#34;</span>: <span style="color:#e6db74">&#34;*&#34;</span>
     }
   ]
 }</code></pre></td></tr></table>
